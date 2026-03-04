@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bodyluxe Wellness Spa — Rejuvenation & Purity | Port Harcourt</title>
+  <meta name="description" content="Port Harcourt's premier luxury wellness spa. Deep tissue massage, facials, body sculpting, LED teeth whitening, and spa training. Two locations: Woji & Onne." />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="container nav-inner">
+
+    <a href="#" class="nav-logo">
+      <span class="nav-logo-name">Body<span>luxe</span></span>
+      <span class="nav-logo-tag">Wellness Spa — Port Harcourt</span>
+    </a>
+
+    <ul class="nav-links">
+      <li>
+        <a href="#about">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          About
+        </a>
+      </li>
+      <li>
+        <a href="#services">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M7.5 12h9"/></svg>
+          Services
+        </a>
+      </li>
+      <li>
+        <a href="#branches">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Branches
+        </a>
+      </li>
+      <li>
+        <a href="#training">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Training
+        </a>
+      </li>
+      <li>
+        <a href="#reviews">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Reviews
+        </a>
+      </li>
+      <li>
+        <a href="#booking" class="nav-cta">Book Now</a>
+      </li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div class="drawer-overlay" id="drawer-overlay"></div>
+<div class="nav-drawer" id="nav-drawer">
+  <ul class="drawer-links">
+    <li>
+      <a href="#about">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        About
+      </a>
+    </li>
+    <li>
+      <a href="#services">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M7.5 12h9"/></svg>
+        Services
+      </a>
+    </li>
+    <li>
+      <a href="#branches">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Branches
+      </a>
+    </li>
+    <li>
+      <a href="#training">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Spa Training
+      </a>
+    </li>
+    <li>
+      <a href="#reviews">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Reviews
+      </a>
+    </li>
+    <li>
+      <a href="#booking">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Book a Session
+      </a>
+    </li>
+  </ul>
+  <div class="drawer-contact">
+    <p>Contact Us</p>
+    <a href="tel:+2348028778058">+234 802 877 8058</a>
+    <a href="https://wa.me/2348028778058" target="_blank">WhatsApp</a>
+    <a href="https://instagram.com/bodyluxe_spa" target="_blank">@bodyluxe_spa</a>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     HERO — 3 SLIDES
+════════════════════════════════════════════════════════════ -->
+<section id="hero">
+
+  <div class="slide active">
+    <div class="slide-bg" style="background-image:url('https://scontent.fabb1-3.fna.fbcdn.net/v/t39.30808-6/559499509_122144190752839938_1386511559893265647_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFoICa7amd0r7n80dMp23BsygEeovyJK8TKAR6i_IkrxNUyjPBGDr1z9m5AVpGT8xNgFv1yRIeMqI2BTZt05sBV&_nc_ohc=jL3XDYhUMnUQ7kNvwEmm2Nb&_nc_oc=AdlvCfgt235MTodybGYPZDmK7ptbfA0PoEzXbqz4sUozg0z5XpaGmKggFMgsG2Yc9Ms&_nc_zt=23&_nc_ht=scontent.fabb1-3.fna&_nc_gid=X2yx0NBPKYe4tfWg2OjkBg&_nc_ss=8&oh=00_AfyY58nzc7nEYoUH9qdmcD-mwQah1Acc2CgBk9z9e4notg&oe=69AE113E')"></div>
+    <div class="slide-overlay"></div>
+  </div>
+  <div class="slide">
+    <div class="slide-bg" style="background-image:url('https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/558976226_122144189360839938_3915903847045279702_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFcB2omyvjxMwsF-Yxf_nrn5MwEwh2eImPkzATCHZ4iY3eHihzrxGtzyExoKc6wnjp-87Y-p5ix8CrrkgZ_FJ9P&_nc_ohc=nqCrOsMOEggQ7kNvwGdkaPn&_nc_oc=AdkpjGqwqqQabEFtPnOKnI5Z00hrP1GYA0APhCwzWEkK9vFuWG7k00beRYD2TNSYogE&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=C0_iqssjPvYXhRE1e5u80w&_nc_ss=8&oh=00_Afx_SkfQR2vN8Jkx8IfhN6GU-usApI4WI2IOr4Ty2y6htA&oe=69AE1B50')"></div>
+    <div class="slide-overlay"></div>
+  </div>
+  <div class="slide">
+    <div class="slide-bg" style="background-image:url('https://scontent.fabb1-3.fna.fbcdn.net/v/t51.75761-15/490703614_17852502885431023_3610364812495294317_n.webp?stp=dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeE7wtobBy5eJCHHE6VpJQhvxrk8o8okIDbGuTyjyiQgNhpwu3gjI2rmFugEQkU__zYLc6enLAGi-PlxqUnsZyQG&_nc_ohc=TnE66tCkYlYQ7kNvwEGZfAr&_nc_oc=AdmaYxG84-6k_xy_oUWeK4FlXF04WDjHS67epgUfsj5KZxSA_dMl3sL1z2CYZfwZdRA&_nc_zt=23&_nc_ht=scontent.fabb1-3.fna&_nc_gid=cM8vpfZS8iKcgrCXSeynBA&_nc_ss=8&oh=00_AfwLShM88i-ZnhU4YR-b8R9XEhiQQFOyIrOZFhqCut__fg&oe=69AE1565')"></div>
+    <div class="slide-overlay"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="container">
+      <div class="hero-text">
+        <span class="hero-eyebrow">Port Harcourt's Luxury Wellness Destination</span>
+        <h1 class="hero-title">
+          Where <em>Luxury</em><br>
+          Meets Healing.
+        </h1>
+        <p class="hero-sub">
+          Premium spa treatments crafted for total rejuvenation. Two locations, one exceptional standard.
+        </p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-gold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Book a Session
+          </a>
+          <a href="#services" class="btn btn-outline">View Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-branches">
+    <div class="branch-pill">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Woji — 2nd Creek View Drive
+    </div>
+    <div class="branch-pill">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Onne — Le Kings Hotels & Suites
+    </div>
+  </div>
+
+  <div class="slider-arrows">
+    <button class="slider-arrow" id="slide-prev" aria-label="Previous">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+    <button class="slider-arrow" id="slide-next" aria-label="Next">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+
+  <div class="slider-controls">
+    <button class="slider-dot active" aria-label="Slide 1"></button>
+    <button class="slider-dot" aria-label="Slide 2"></button>
+    <button class="slider-dot" aria-label="Slide 3"></button>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     GOLD STRIP
+════════════════════════════════════════════════════════════ -->
+<div class="gold-strip">
+  <div class="gold-strip-inner">
+    <div class="strip-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      Premium Treatments
+    </div>
+    <div class="strip-divider"></div>
+    <div class="strip-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      2 Locations in PH
+    </div>
+    <div class="strip-divider"></div>
+    <div class="strip-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M5 21a7 7 0 0 1 14 0"/></svg>
+      Certified Therapists
+    </div>
+    <div class="strip-divider"></div>
+    <div class="strip-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      Spa Training Available
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     IMAGE TICKER
+════════════════════════════════════════════════════════════ -->
+<section class="ticker-section">
+  <div class="container">
+    <div class="ticker-header">
+      <span class="label fade-up" style="justify-content:center;">Inside Bodyluxe</span>
+      <h2 class="fade-up d1">The <em>Experience</em> in Every Detail</h2>
+    </div>
+  </div>
+
+  <div class="ticker-track-wrap">
+    <div class="ticker-track">
+
+      <!-- Original 4 images -->
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t51.75761-15/498684470_17855924991431023_1849869820553708019_n.webp?stp=dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeH_fkH33-8ha2aZ2uoNy-BkXHT0TKg4PG9cdPRMqDg8b4mv5ZdmSWDk1DW79NcTog9tHTIU-ZYtbkLMfgZ0dpi-&_nc_ohc=ADAVypePTR8Q7kNvwEO3GLR&_nc_oc=Adl6Ics74c_vPdoVCHbBqrRFxia0Oni_-WEkfzr-Cj6F1EjcIzPvCu5qqDfyxJB6axM&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=--iVQNSOszJU849d-BBlEw&_nc_ss=8&oh=00_AfyIIrdEv081136o3AMQ6eSl0bBN_aKE-yolr5Z1VjYN6A&oe=69AE41B1" alt="Bodyluxe spa interior" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Our Space</span>
+      </div>
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t51.75761-15/490180658_17851250103431023_1881476592713006859_n.webp?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeGLAt6ExG25i7XWBkBWfxNqmg560ZeuPeCaDnrRl6494ByLsIcJKSguyKizZ04p3MEfe9kOTROUEvI9b0O6YhRd&_nc_ohc=N_xSXxNS6SYQ7kNvwHv-vOk&_nc_oc=AdkgTKlFzSiRCD9gYPYzbnyWIwl0upK_XxUkk-GiwR_lWJEgXznwfu8KjzE_rtqNKtM&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=ewHRHPqWus7DyI2tagDmHw&_nc_ss=8&oh=00_AfxxIfOVpAiDR6aHXzS55BhP-WwiG_CqopCBZmaEFQ388A&oe=69AE27FD" alt="Facial treatment" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Facial Therapy</span>
+      </div>
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/559556409_122143809860839938_3101821077699489592_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeGry_8fuGswsivyvoB8cEmUJUV6WUOHicYlRXpZQ4eJxmBt3sYvTwhOpLFKHLDZmYGp4m_NCGv1XvZPRBjVA3rr&_nc_ohc=TnDi4SNBBpEQ7kNvwGPC0_n&_nc_oc=AdkARaoMTq9YO3qMSEosZAl35N3_tsqdlY6uqb2XqZrIpPG1IFuMOA3IZqvFd__vIjI&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=UQv29lO6w2_U0ksaXHZF6Q&_nc_ss=8&oh=00_Afy9KERh3vAI46s00rcOcjvNqzu78LXamUlmdVojzcuylg&oe=69AE26C3" alt="Massage therapy" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Massage Therapy</span>
+      </div>
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-2.fna.fbcdn.net/v/t39.30808-6/552467310_122141636834839938_6510041883153334275_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEdf6cWBfK5pMdEeIh_TYi6Gy3woSVJjqYbLfChJUmOpi4mXmsVm_aRPIP-u1e4hSyy6Dl8GBjE6dwm7PeFq9UN&_nc_ohc=7LkUzMC7g7cQ7kNvwGBO68J&_nc_oc=AdmD4OiNw5U8PfxEQ5UJgEfapsPjfJ2XYNSXQK6Qa86YduQ8U024sw7WPjbbhQkWLHI&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&_nc_gid=MeiTZcvcieIaFWRBr6ufBQ&_nc_ss=8&oh=00_Afxoq7gUgPtY7AZtC0ktSDqT83SwSK_mqKaOxWcyypj1Rw&oe=69AE4187" alt="Luxury wellness" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Luxury Wellness</span>
+      </div>
+
+      <!-- Duplicated for seamless loop -->
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-3.fna.fbcdn.net/v/t51.75761-15/499018954_17855924979431023_765756039934199362_n.webp?stp=dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeFfZWhTWcxeaMce7zZ507nUkcWMEJo3htKRxYwQmjeG0t0AQ53NBBKRZZg073CeZCOI3s5Jhk43IuHYmUf-wKvp&_nc_ohc=yIJLiEmZE3EQ7kNvwEmddNH&_nc_oc=Adk53_k--geNt3t8C8BM_MNnU77gx4W-8rc1ViZulGee4InisntjpVlAZsWs2VHqhH8&_nc_zt=23&_nc_ht=scontent.fabb1-3.fna&_nc_gid=c4Huyh6q9jaYsXn5IPxjyA&_nc_ss=8&oh=00_Afz7zh_kx3bCnSjnYhKwH0ZdduclADvqKmwZO5V2sfT1dw&oe=69AE36D0" alt="Bodyluxe spa interior" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Our Space</span>
+      </div>
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-2.fna.fbcdn.net/v/t51.75761-15/490855122_17852502867431023_5475007905014798720_n.webp?stp=dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeGV5zaAjOSIeTc8jPf3ysTP4DMr5MkXkb3gMyvkyReRvW4Few9ZpX3gt4io5IcEdyytVpCjFny6K7GBpGbE982y&_nc_ohc=t5O0Sgv7JzQQ7kNvwH9c2fJ&_nc_oc=AdnHLK8rkXYN18Fvi-jm2CdEKp5gdOPfnLCuefUSdX4GJvnFqvIreGxNuPirQtdDix4&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&_nc_gid=vFh3Sf5rdeR1YEVfTXmoNg&_nc_ss=8&oh=00_AfwherIp_NuZKkGxi746a24_Okn5-2Lu6QtTMeaTSVGmWA&oe=69AE3617" alt="Facial treatment" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Facial Therapy</span>
+      </div>
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t51.75761-15/498578697_17856027072431023_8786904978860326899_n.webp?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=13d280&_nc_eui2=AeHRdagKduYQCqTm0B_TyfJ3av6KUObIE0Bq_opQ5sgTQNuVdaWdLjNVIklvn4KEIo_pA2gbRLpNIDgJYZIQSZLo&_nc_ohc=KTRcySq_8TMQ7kNvwFoRhto&_nc_oc=Adm-DmO6FUeuYRHbTMXvVt3PFZQwtkEF1IFBdtUqxm5CePP3Nz1HEnqaOm1zeBVtZss&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=mqdbc0FzsKWQ6kGW3NPl2Q&_nc_ss=8&oh=00_AfzSM85tH69FuGR1bahvX2DRdyDCEUlSuwvrXWS0y15Z3g&oe=69AE382A" alt="Massage therapy" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Massage Therapy</span>
+      </div>
+      <div class="ticker-img">
+        <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/559026938_122144189348839938_690423342565272476_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEspcERzHPKJS2_qzqFFKWR13_3ClUcigHXf_cKVRyKAT5vvsc6T4Ds1uRhoq3xu2vJHQBDJEglf5Fv6hS4L0L6&_nc_ohc=MNTzXskb7XoQ7kNvwFkvsmn&_nc_oc=AdnHA_RvAdfvfVbBQlN4giEOyRCFiAYWdtql9ngA06hxqSd8dCjP-_xaBx9lNUdzi7s&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=lA20sGdErNuAdm1H8jhLdQ&_nc_ss=8&oh=00_Afwn2A29xZEtcgWD3oGTgPh3tMDhoak2zGIpB929TOIOqA&oe=69AE0F49" alt="Luxury wellness" loading="lazy" />
+        <div class="ticker-img-overlay"></div>
+        <span class="ticker-img-label">Luxury Wellness</span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="ticker-cta">
+    <a href="#booking" class="btn btn-gold fade-up">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      Experience It Yourself — Book Now
+    </a>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     ABOUT
+════════════════════════════════════════════════════════════ -->
+<section class="section section--card" id="about">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-text">
+        <span class="label fade-up">Who We Are</span>
+        <h2 class="fade-up d1">Luxury Redefined.<br><em>Wellness Perfected.</em></h2>
+        <span class="gold-rule fade-up d2"></span>
+        <p class="fade-up d2">
+          Bodyluxe Wellness Spa is Port Harcourt's premier luxury wellness destination — a space built on the belief that true beauty begins with deep, intentional care. We combine clinical expertise with a luxurious sensory environment to deliver results that go far beyond the surface.
+        </p>
+        <p class="fade-up d3">
+          With two established locations and a team of certified therapists, we serve clients who expect the very best — and we consistently deliver it. Whether you come for a single session or become a regular client, the Bodyluxe experience is always personal, always premium.
+        </p>
+
+        <div class="about-stats fade-up d3">
+          <div class="stat-item">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Locations</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Services</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">500+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+
+        <div class="fade-up d4">
+          <a href="#services" class="btn btn-outline">Explore Our Services</a>
+        </div>
+      </div>
+
+      <div class="about-visual fade-up d2">
+        <div class="about-img-main">
+          <img src="https://images.unsplash.com/photo-1560750133-01d1c9e8b24e?w=800&q=80&fit=crop" alt="Bodyluxe Spa interior" loading="lazy" />
+        </div>
+        <div class="about-img-accent">
+          <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&q=80&fit=crop" alt="Spa treatment" loading="lazy" />
+        </div>
+        <div class="about-tag">
+          <strong>PH</strong>
+          <span>No. 1<br>Spa</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     SERVICES
+════════════════════════════════════════════════════════════ -->
+<section class="section" id="services">
+  <div class="container">
+
+    <div class="services-intro">
+      <div>
+        <span class="label fade-up">What We Offer</span>
+        <h2 class="fade-up d1">Our <em>Signature</em><br>Treatments</h2>
+      </div>
+      <div class="fade-up d2">
+        <p style="margin-bottom:24px;">Every treatment is delivered by certified therapists using premium products in an environment designed for total immersion.</p>
+        <a href="#booking" class="btn btn-outline">Book Any Treatment</a>
+      </div>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card fade-up">
+        <span class="service-number">01</span>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Deep Tissue Massage</h3>
+        <p>Intensive therapeutic work targeting deep muscle layers, chronic tension, and connective tissue. Designed for lasting structural relief.</p>
+        <span class="service-badge">Body Treatment</span>
+      </div>
+
+      <div class="service-card fade-up d1">
+        <span class="service-number">02</span>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>Swedish Relaxation Massage</h3>
+        <p>Long flowing strokes designed to calm the nervous system, improve circulation, and guide the body into a state of complete relaxation.</p>
+        <span class="service-badge">Body Treatment</span>
+      </div>
+
+      <div class="service-card fade-up d2">
+        <span class="service-number">03</span>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <h3>Rejuvenating Facial</h3>
+        <p>A multi-step facial treatment using premium skincare formulations to deeply cleanse, exfoliate, and restore luminosity to the skin.</p>
+        <span class="service-badge">Skin Care</span>
+      </div>
+
+      <div class="service-card fade-up d1">
+        <span class="service-number">04</span>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+        </div>
+        <h3>Skin Polishing & Body Sculpting</h3>
+        <p>A full-body exfoliation and contouring treatment that buffs away dead skin cells while improving skin tone, texture, and body definition.</p>
+        <span class="service-badge">Body Treatment</span>
+      </div>
+
+      <div class="service-card fade-up d2">
+        <span class="service-number">05</span>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <h3>LED Teeth Whitening</h3>
+        <p>Professional-grade LED light activation combined with whitening gel delivers visibly brighter teeth in a single, comfortable session.</p>
+        <span class="service-badge">Specialty</span>
+      </div>
+
+      <div class="service-card fade-up d3">
+        <span class="service-number">06</span>
+        <div class="service-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>Manicure, Pedicure & Hair Care</h3>
+        <p>Precision nail and hand care combined with professional hair cutting services — complete beauty in one refined, unhurried visit.</p>
+        <span class="service-badge">Beauty</span>
+      </div>
+
+    </div>
+
+    <div style="text-align:center;margin-top:52px;" class="fade-up">
+      <p style="margin-bottom:22px;font-size:.88rem;">Not sure which treatment is right for you? We will guide you.</p>
+      <a href="https://wa.me/2348028778058?text=Hello%20Bodyluxe%2C%20I%20need%20help%20choosing%20a%20treatment." target="_blank" class="btn btn-gold">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Chat With Us
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     TRAINING BANNER
+════════════════════════════════════════════════════════════ -->
+<section class="training-banner" id="training">
+  <div class="container">
+    <div class="training-inner">
+      <div class="training-text fade-up">
+        <span class="label" style="color:rgba(0,0,0,0.5);">Professional Training</span>
+        <h2>Launch Your Career<br>in Luxury Wellness.</h2>
+        <p>
+          Our intensive 3-week spa training programme covers facials, therapeutic massage, and nail care — taught by certified professionals in a real spa environment. Beginners welcome. Certification provided on completion.
+        </p>
+        <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="#booking" class="btn btn-outline-dark">Enrol Now</a>
+          <a href="https://wa.me/2348028778058?text=Hello%2C%20I%20am%20interested%20in%20the%20Bodyluxe%20spa%20training%20programme." target="_blank" class="btn btn-outline-dark">
+            Ask a Question
+          </a>
+        </div>
+      </div>
+      <div class="training-price fade-up d2">
+        <span class="amount">₦250k</span>
+        <span class="duration">3-Week Programme</span>
+        <div style="font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(0,0,0,0.45);margin-bottom:6px;">Covers</div>
+        <div style="display:flex;flex-direction:column;gap:6px;text-align:left;font-size:.82rem;color:rgba(0,0,0,0.6);">
+          <span>— Facial techniques</span>
+          <span>— Therapeutic massage</span>
+          <span>— Nail care &amp; manicure</span>
+          <span>— Certificate on completion</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     BOOKING
+════════════════════════════════════════════════════════════ -->
+<section id="booking" style="padding:0;">
+  <div class="booking-wrap">
+
+    <div class="booking-left">
+      <span class="label fade-up">Reservations</span>
+      <h2 class="fade-up d1">Book Your <em>Session</em></h2>
+      <p class="fade-up d2">Fill in the form and we will confirm your appointment via WhatsApp within the hour. Choose your preferred branch and treatment below.</p>
+
+      <div class="booking-items fade-up d3">
+        <div class="booking-item">
+          <div class="bi-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="bi-text">
+            <span>Hours</span>
+            <span>Monday – Saturday, 9am – 8pm</span>
+          </div>
+        </div>
+        <div class="booking-item">
+          <div class="bi-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.03z"/></svg>
+          </div>
+          <div class="bi-text">
+            <span>Phone / WhatsApp</span>
+            <span>+234 802 877 8058</span>
+          </div>
+        </div>
+        <div class="booking-item">
+          <div class="bi-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="bi-text">
+            <span>Woji Branch</span>
+            <span>2nd Creek View Drive, Woji, Port Harcourt</span>
+          </div>
+        </div>
+        <div class="booking-item">
+          <div class="bi-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="bi-text">
+            <span>Onne Branch</span>
+            <span>Le Kings Hotels & Suites, IITA Onne Eleme</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://wa.me/2348028778058" target="_blank" class="btn btn-outline fade-up d4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Book Directly via WhatsApp
+      </a>
+    </div>
+
+    <div class="booking-right">
+      <h3>Request an Appointment</h3>
+      <form id="booking-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-name">Full Name *</label>
+            <input type="text" id="f-name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="f-phone">Phone / WhatsApp *</label>
+            <input type="tel" id="f-phone" placeholder="+234 xxx xxx xxxx" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="f-service">Treatment *</label>
+          <select id="f-service" required>
+            <option value="" disabled selected>Select a treatment</option>
+            <option>Deep Tissue Massage</option>
+            <option>Swedish Relaxation Massage</option>
+            <option>Rejuvenating Facial</option>
+            <option>Back Facial</option>
+            <option>Skin Polishing</option>
+            <option>Body Sculpting</option>
+            <option>LED Teeth Whitening</option>
+            <option>Manicure &amp; Pedicure</option>
+            <option>Hair Cutting</option>
+            <option>Underarm Waxing</option>
+            <option>Spa Training Programme</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="f-branch">Preferred Branch</label>
+          <select id="f-branch">
+            <option value="" disabled selected>Select a branch</option>
+            <option>Woji — 2nd Creek View Drive</option>
+            <option>Onne — Le Kings Hotels & Suites</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-date">Preferred Date</label>
+            <input type="date" id="f-date" />
+          </div>
+          <div class="form-group">
+            <label for="f-time">Preferred Time</label>
+            <input type="time" id="f-time" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="f-note">Special Notes</label>
+          <textarea id="f-note" placeholder="Any health concerns, preferences, or questions..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold form-submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Send Booking Request
+        </button>
+        <p class="form-note">Submitting opens WhatsApp with your details pre-filled.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     BRANCHES
+════════════════════════════════════════════════════════════ -->
+<section class="section" id="branches">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;">
+      <span class="label fade-up" style="justify-content:center;">Our Locations</span>
+      <h2 class="fade-up d1" style="color:var(--white);">Two Branches,<br><em>One Standard.</em></h2>
+    </div>
+
+    <div class="branches-grid">
+
+      <div class="branch-card fade-up">
+        <span class="branch-num">01</span>
+        <span class="branch-tag">Main Branch</span>
+        <h3>Woji, Port Harcourt</h3>
+        <div class="branch-details">
+          <div class="branch-detail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            2nd Creek View Drive, Woji, Port Harcourt
+          </div>
+          <div class="branch-detail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Monday – Saturday, 9am – 8pm
+          </div>
+          <div class="branch-detail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.03z"/></svg>
+            +234 802 877 8058
+          </div>
+        </div>
+        <a href="https://maps.google.com/?q=Woji,+Port+Harcourt,+Nigeria" target="_blank" class="btn btn-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Get Directions
+        </a>
+      </div>
+
+      <div class="branch-card fade-up d2">
+        <span class="branch-num">02</span>
+        <span class="branch-tag">Onne Branch</span>
+        <h3>Le Kings Hotels, Onne</h3>
+        <div class="branch-details">
+          <div class="branch-detail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Le Kings Hotels & Suites, IITA Onne Eleme
+          </div>
+          <div class="branch-detail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Monday – Saturday, 9am – 8pm
+          </div>
+          <div class="branch-detail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.03z"/></svg>
+            +234 802 877 8058
+          </div>
+        </div>
+        <a href="https://maps.google.com/?q=Onne+Eleme,+Rivers+State,+Nigeria" target="_blank" class="btn btn-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Get Directions
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     GOOGLE REVIEWS
+════════════════════════════════════════════════════════════ -->
+<section class="section section--light" id="reviews">
+  <div class="container">
+
+    <div class="reviews-top">
+      <div class="fade-up">
+        <div class="google-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+          </svg>
+          <div class="gbt">
+            <strong>Google Reviews</strong>
+            <span>Verified client feedback</span>
+          </div>
+        </div>
+        <div class="overall-score">
+          <span class="score-num">4.9</span>
+          <div class="score-detail">
+            <div class="stars-row">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span class="review-count">Based on 63 Google reviews</span>
+          </div>
+        </div>
+      </div>
+      <a href="#booking" class="btn btn-gold fade-up d2">Book Your Experience</a>
+    </div>
+
+    <div class="reviews-grid">
+
+      <div class="review-card fade-up">
+        <div class="review-header">
+          <div class="reviewer-avatar" style="background:#4285F4;">T</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Tochi Amadi</span>
+            <span class="reviewer-date">3 weeks ago</span>
+          </div>
+          <div class="review-g-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-text">Bodyluxe is the only spa in Port Harcourt that consistently delivers a truly luxury experience. I had the deep tissue massage at the Woji branch and walked out feeling like a completely different person. The therapist was skilled, thorough, and professional from start to finish.</p>
+      </div>
+
+      <div class="review-card fade-up d1">
+        <div class="review-header">
+          <div class="reviewer-avatar" style="background:#34A853;">N</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Ngozi Peterside</span>
+            <span class="reviewer-date">1 month ago</span>
+          </div>
+          <div class="review-g-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-text">The facial I received was exceptional. My skin glowed for days afterwards. The ambiance is genuinely luxurious — clean, beautifully decorated, and calm. I left feeling completely refreshed. I have already recommended Bodyluxe to everyone in my office.</p>
+      </div>
+
+      <div class="review-card fade-up d2">
+        <div class="review-header">
+          <div class="reviewer-avatar" style="background:#C9A84C;">K</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Kelechi Obi</span>
+            <span class="reviewer-date">5 weeks ago</span>
+          </div>
+          <div class="review-g-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          </div>
+        </div>
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-text">I visited the Onne branch and the experience at Le Kings was outstanding. The LED teeth whitening results were immediately visible and the therapist explained every step clearly. This is a world-class standard of service right here in Rivers State. Will absolutely return.</p>
+      </div>
+
+    </div>
+
+    <div class="review-cta-row fade-up">
+      <p>Enjoyed your visit? Share it with others and help them discover Bodyluxe.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+        <a href="https://search.google.com/local/writereview?placeid=ChIJbodyluxe" target="_blank" class="btn btn-gold">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Leave a Google Review
+        </a>
+        <a href="#booking" class="btn btn-outline-dark">Book Your Session</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     CONTACT
+════════════════════════════════════════════════════════════ -->
+<section class="section section--card" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div>
+        <span class="label fade-up">Get in Touch</span>
+        <h2 class="fade-up d1" style="color:var(--white);">We Are Ready<br><em>to Receive You.</em></h2>
+        <span class="gold-rule fade-up d2"></span>
+        <p class="fade-up d2">Have questions before your first visit? Interested in the training programme or a group booking? Reach out through any of the channels below.</p>
+
+        <div class="contact-items fade-up d3">
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.03z"/></svg>
+            </div>
+            <div class="ci-text">
+              <strong>Phone / WhatsApp</strong>
+              <a href="tel:+2348028778058">+234 802 877 8058</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div class="ci-text">
+              <strong>Instagram</strong>
+              <a href="https://instagram.com/bodyluxe_spa" target="_blank">@bodyluxe_spa</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </div>
+            <div class="ci-text">
+              <strong>Facebook</strong>
+              <a href="https://facebook.com" target="_blank">Bodyluxe Wellness Spa</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links fade-up d4">
+          <a href="https://wa.me/2348028778058" target="_blank" class="social-link" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </a>
+          <a href="https://instagram.com/bodyluxe_spa" target="_blank" class="social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-visual fade-up d2">
+        <div class="location-item">
+          <h4>Woji — Main Branch</h4>
+          <p>2nd Creek View Drive, Woji, Port Harcourt, Rivers State</p>
+          <a href="https://maps.google.com/?q=Woji+Port+Harcourt" target="_blank" class="btn btn-outline" style="margin-top:14px;padding:10px 22px;font-size:.68rem;">
+            Open in Maps
+          </a>
+        </div>
+        <div class="location-item">
+          <h4>Onne Branch</h4>
+          <p>Le Kings Hotels &amp; Suites, IITA Onne Eleme, Rivers State</p>
+          <a href="https://maps.google.com/?q=Onne+Eleme+Rivers+State" target="_blank" class="btn btn-outline" style="margin-top:14px;padding:10px 22px;font-size:.68rem;">
+            Open in Maps
+          </a>
+        </div>
+        <div style="margin-top:8px;">
+          <a href="https://wa.me/2348028778058?text=Hello%20Bodyluxe%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" class="btn btn-gold" style="width:100%;justify-content:center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            WhatsApp: +234 802 877 8058
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="footer-logo">Body<span>luxe</span></span>
+        <p>Port Harcourt's premier luxury wellness spa. Rejuvenation, purity, and excellence — at two locations across Rivers State.</p>
+        <div class="social-links">
+          <a href="https://wa.me/2348028778058" target="_blank" class="social-link" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </a>
+          <a href="https://instagram.com/bodyluxe_spa" target="_blank" class="social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Treatments</a></li>
+          <li><a href="#branches">Our Branches</a></li>
+          <li><a href="#training">Spa Training</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Treatments</h4>
+        <ul class="footer-links">
+          <li><a href="#booking">Deep Tissue Massage</a></li>
+          <li><a href="#booking">Swedish Massage</a></li>
+          <li><a href="#booking">Rejuvenating Facial</a></li>
+          <li><a href="#booking">LED Teeth Whitening</a></li>
+          <li><a href="#booking">Body Sculpting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:+2348028778058">+234 802 877 8058</a></li>
+          <li><a href="https://wa.me/2348028778058" target="_blank">WhatsApp</a></li>
+          <li><a href="https://instagram.com/bodyluxe_spa" target="_blank">@bodyluxe_spa</a></li>
+          <li><a href="#branches">Woji Branch</a></li>
+          <li><a href="#branches">Onne Branch</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Bodyluxe Wellness Spa. All rights reserved. Port Harcourt, Rivers State.</p>
+      <p>Rejuvenation &amp; Purity</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Back to Top -->
+<button id="back-to-top" aria-label="Back to top">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="main.js"></script>
+</body>
+</html>
